@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kitchen Sink</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Kitchen Sink</h1>
+      </header>
+
+      <section aria-labelledby="youtube-heading">
+        <h2 id="youtube-heading">YouTube</h2>
+        <label class="feature" for="youtube-max-quality">
+          <span class="feature-copy">
+            <strong>Maximum quality</strong>
+            <span>Use the highest resolution available.</span>
+          </span>
+          <span class="switch">
+            <input id="youtube-max-quality" type="checkbox" role="switch" checked />
+            <span class="track" aria-hidden="true"><span class="thumb"></span></span>
+          </span>
+        </label>
+        <label class="feature" for="youtube-theater">
+          <span class="feature-copy">
+            <strong>Theater mode</strong>
+            <span>Open the large player automatically.</span>
+          </span>
+          <span class="switch">
+            <input id="youtube-theater" type="checkbox" role="switch" checked />
+            <span class="track" aria-hidden="true"><span class="thumb"></span></span>
+          </span>
+        </label>
+      </section>
+
+      <section aria-labelledby="twitch-heading">
+        <h2 id="twitch-heading">Twitch</h2>
+        <label class="feature" for="twitch-max-quality">
+          <span class="feature-copy">
+            <strong>Maximum quality</strong>
+            <span>Use the highest quality this stream offers.</span>
+          </span>
+          <span class="switch">
+            <input id="twitch-max-quality" type="checkbox" role="switch" checked />
+            <span class="track" aria-hidden="true"><span class="thumb"></span></span>
+          </span>
+        </label>
+        <label class="feature" for="twitch-mentions">
+          <span class="feature-copy">
+            <strong>Mentions panel</strong>
+            <span>Keep replies and @mentions from scrolling off chat.</span>
+          </span>
+          <span class="switch">
+            <input id="twitch-mentions" type="checkbox" role="switch" checked />
+            <span class="track" aria-hidden="true"><span class="thumb"></span></span>
+          </span>
+        </label>
+      </section>
+
+      <section aria-labelledby="google-heading">
+        <h2 id="google-heading">Google</h2>
+        <label class="feature" for="google-blur-ai-overviews">
+          <span class="feature-copy">
+            <strong>Blur AI Overviews</strong>
+            <span>Blur AI answers without hiding web results.</span>
+          </span>
+          <span class="switch">
+            <input id="google-blur-ai-overviews" type="checkbox" role="switch" checked />
+            <span class="track" aria-hidden="true"><span class="thumb"></span></span>
+          </span>
+        </label>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
